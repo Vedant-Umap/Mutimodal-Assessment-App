@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Models & Large Binaries (Ignore large weights)
+model_training/*.h5
+model_training/*.keras
+model_training/*.pkl
+model_training/*.weights
+model_training/*.pb
+
+# Logs & Temp
+*.log
+debug_ws.txt
+tmp/*
+!tmp/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
